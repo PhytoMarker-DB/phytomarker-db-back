@@ -1,0 +1,22 @@
+# FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\resources\application.yml
+spring:
+  application:
+    name: Phytomarker-DB
+
+  profiles:
+    active: dev
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/phytomarkerdb
+    username: postgres
+    password: root
+
+  jpa:
+
+    hibernate:
+      ddl-auto: create
+
+    open-in-view: false
+
+jwt:
+  secret: aVeryLongAndSecureSecretKeyThatShouldBeStoredSafely

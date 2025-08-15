@@ -1,0 +1,1090 @@
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\.idea\compiler.xml ---
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="phytomarker-db" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="phytomarker-db" options="-parameters" />
+    </option>
+  </component>
+</project>
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\.idea\encodings.xml ---
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+  </component>
+</project>
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\.idea\jarRepositories.xml ---
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+  </component>
+</project>
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\.idea\misc.xml ---
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="openjdk-24" project-jdk-type="JavaSDK" />
+</project>
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\.idea\workspace.xml ---
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbd5754f-de64-4a8c-bad2-6702dc4d3b60" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="30okV2Hvzrbta5bhYytVRmR6Uaq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Spring App.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Spring App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="fr.cda.phytomarker_db.PhytomarkerDbApplication" />
+      <module name="phytomarker-db" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbd5754f-de64-4a8c-bad2-6702dc4d3b60" name="Changes" comment="" />
+      <created>1754301334682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754301334682</updated>
+    </task>
+    <servers />
+  </component>
+</project>
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\.mvn\wrapper\maven-wrapper.properties ---
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+wrapperVersion=3.3.2
+distributionType=only-script
+distributionUrl=https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.11/apache-maven-3.9.11-bin.zip
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\config\SecurityConfig.java ---
+package fr.cda.phytomarker_db.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
+import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder; // Import correct
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+
+import java.util.Arrays;
+import java.util.List;
+
+@Configuration
+public class SecurityConfig {
+
+    @Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        return http
+
+                .cors(Customizer.withDefaults())
+                .csrf(AbstractHttpConfigurer::disable)
+                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .authorizeHttpRequests(auth -> auth
+                        .requestMatchers("/api/plants/search").permitAll()
+                        .anyRequest().authenticated()
+                )
+                .httpBasic(Customizer.withDefaults())
+                .build();
+    }
+
+    @Bean
+    CorsConfigurationSource corsConfigurationSource() {
+        CorsConfiguration config = new CorsConfiguration();
+        config.setAllowedOrigins(List.of("http://localhost:4200"));
+        // Il est bon d'ajouter PUT et DELETE pour l'évolutivité
+        config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
+        config.setAllowedHeaders(List.of("*"));
+        config.setAllowCredentials(true);
+
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+
+        source.registerCorsConfiguration("/**", config);
+        return source;
+    }
+
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
+
+    @Bean
+    public UserDetailsService users() {
+
+        UserDetails user = User
+                .builder()
+                .username("user")
+                .password(passwordEncoder().encode("password"))
+                .authorities("ROLE_RESEARCHER")
+                .build();
+        return new InMemoryUserDetailsManager(user);
+    }
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\controller\PlantController.java ---
+package fr.cda.phytomarker_db.controller;
+
+import fr.cda.phytomarker_db.dto.PlantDetailDto;
+import fr.cda.phytomarker_db.dto.PlantDto;
+import fr.cda.phytomarker_db.dto.PlantSearchCriteriaDto;
+import fr.cda.phytomarker_db.model.Plant;
+import fr.cda.phytomarker_db.repository.PlantRepository;
+import fr.cda.phytomarker_db.service.PlantService;
+import jakarta.validation.Valid;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/plants")
+public class PlantController {
+    private final PlantService plantService;
+    private final PlantRepository plantRepository;
+
+    public PlantController(PlantService plantService, PlantRepository plantRepository) {
+        this.plantService = plantService;
+        this.plantRepository = plantRepository;
+    }
+
+    @GetMapping("/search")
+    public List<PlantDto> searchPlants(
+            @RequestParam(required = false) String variety,
+            @RequestParam(required = false) Double minMildewScore,
+            @RequestParam(required = false) List<String> markerNames
+    ) {
+        PlantSearchCriteriaDto criteria = new PlantSearchCriteriaDto(variety, minMildewScore, markerNames);
+        return plantService.searchPlants(criteria);
+    }
+
+    @GetMapping("/search/export")
+    public ResponseEntity<String> exportSearch(PlantSearchCriteriaDto criteria) {
+        String csvData = plantService.exportToCsv(criteria);
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"export_plants.csv\"")
+                .contentType(MediaType.TEXT_PLAIN)
+                .body(csvData);
+    }
+
+    @GetMapping("/{id}")
+    public PlantDetailDto getPlantById(@PathVariable Long id) {
+        return plantService.getPlantById(id);
+    }
+
+    @PostMapping
+    public Plant createPlant(@Valid @RequestBody Plant plant) {
+        return plantService.createPlant(plant);
+    }
+
+    @GetMapping("/varieties")
+    public List<String> getAllVarieties() {
+        return plantRepository.findDistinctVarieties();
+    }
+
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\dto\GenotypeDto.java ---
+package fr.cda.phytomarker_db.dto;
+
+public record GenotypeDto(MarkerDto marker) {
+
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\dto\MarkerDto.java ---
+package fr.cda.phytomarker_db.dto;
+
+public record MarkerDto(String name) {
+
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\dto\PhenotypeObservationDto.java ---
+package fr.cda.phytomarker_db.dto;
+
+import java.time.LocalDate;
+
+public record PhenotypeObservationDto(LocalDate observationDate, String trait, String value) {}
+
+
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\dto\PlantDetailDto.java ---
+package fr.cda.phytomarker_db.dto;
+
+import java.util.List;
+import java.util.Set;
+
+public record PlantDetailDto(
+        Long id,
+        String name,
+        String variety,
+        Long parent1Id,
+        Long parent2Id,
+        Set<GenotypeDto> genotypes,
+        List<PhenotypeObservationDto> observations
+) {
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\dto\PlantDto.java ---
+package fr.cda.phytomarker_db.dto;
+
+import java.util.Set;
+
+public record PlantDto(
+        Long id,
+        String name,
+        String variety,
+        Double mildewResistanceScore,
+        Set<GenotypeDto> genotypes
+) {
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\dto\PlantSearchCriteriaDto.java ---
+package fr.cda.phytomarker_db.dto;
+
+import java.util.List;
+
+public record PlantSearchCriteriaDto (
+        String variety,
+        Double minMildewScore,
+        List<String> markerNames
+) {
+
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\exception\ResourceNotFoundException.java ---
+package fr.cda.phytomarker_db.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(HttpStatus.NOT_FOUND)
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\init\DataInitializer.java ---
+package fr.cda.phytomarker_db.init;
+
+import fr.cda.phytomarker_db.model.Genotype;
+import fr.cda.phytomarker_db.model.Marker;
+import fr.cda.phytomarker_db.model.Plant;
+import fr.cda.phytomarker_db.repository.GenotypeRepository;
+import fr.cda.phytomarker_db.repository.MarkerRepository;
+import fr.cda.phytomarker_db.repository.PlantRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+
+@Component
+@Profile("dev") // Ne s'exécute que lorsque le profil 'dev' est actif
+public class DataInitializer implements CommandLineRunner {
+
+    private static final Logger log = LoggerFactory.getLogger(DataInitializer.class);
+
+    private final PlantRepository plantRepository;
+    private final MarkerRepository markerRepository;
+    private final GenotypeRepository genotypeRepository;
+
+    public DataInitializer(PlantRepository plantRepository, MarkerRepository markerRepository, GenotypeRepository genotypeRepository) {
+        this.plantRepository = plantRepository;
+        this.markerRepository = markerRepository;
+        this.genotypeRepository = genotypeRepository;
+    }
+
+    @Override
+    public void run(String... args) throws Exception {
+        if (plantRepository.count() > 0) {
+            log.info("La base de données PhytoMarker contient déjà des données. Pas d'initialisation.");
+            return;
+        }
+
+        log.info("############################################################");
+        log.info("####### DÉMARRAGE DE L'INITIALISATION PHYTO-MARKER #######");
+
+        // 1. Créer les marqueurs génétiques
+        Marker mkR123 = new Marker();
+        mkR123.setName("Mk-R-123");
+
+        Marker mkR125 = new Marker();
+        mkR125.setName("Mk-R-125");
+
+        Marker mkY45 = new Marker();
+        mkY45.setName("Mk-Y-45");
+
+        markerRepository.saveAll(List.of(mkR123, mkR125, mkY45));
+        log.info("{} marqueurs créés.", markerRepository.count());
+
+        // 2. Créer les plantes et leur pedigree
+        Plant grandParent = new Plant();
+        grandParent.setName("Ancetre-01");
+        grandParent.setVariety("Variété Ancienne");
+        grandParent.setMildewResistanceScore(2.0);
+        plantRepository.save(grandParent); // Sauvegarder pour obtenir un ID
+
+        Plant parentA = new Plant();
+        parentA.setName("Parent-A");
+        parentA.setVariety("Blé dur");
+        parentA.setMildewResistanceScore(3.5);
+        parentA.setParent1Id(grandParent.getId());
+        plantRepository.save(parentA);
+
+        Plant parentB = new Plant();
+        parentB.setName("Parent-B");
+        parentB.setVariety("Orge");
+        parentB.setMildewResistanceScore(4.0);
+        plantRepository.save(parentB);
+
+        Plant child1 = new Plant();
+        child1.setName("Descendant-001");
+        child1.setVariety("Blé dur");
+        child1.setMildewResistanceScore(4.5);
+        child1.setParent1Id(parentA.getId());
+        child1.setParent2Id(parentB.getId());
+        plantRepository.save(child1);
+
+        Plant child2 = new Plant();
+        child2.setName("Descendant-002");
+        child2.setVariety("Blé dur");
+        child2.setMildewResistanceScore(5.0);
+        child2.setParent1Id(parentA.getId());
+        child2.setParent2Id(parentB.getId());
+        plantRepository.save(child2);
+
+        log.info("{} plantes créées.", plantRepository.count());
+
+        // 3. Créer les génotypes (lier les plantes aux marqueurs)
+        // L'ancêtre a le marqueur Mk-Y-45
+        createGenotype(grandParent, mkY45);
+
+        // Le parent A hérite du marqueur de l'ancêtre
+        createGenotype(parentA, mkY45);
+
+        // Le descendant 1 a les deux marqueurs de résistance
+        createGenotype(child1, mkR123);
+        createGenotype(child1, mkR125);
+
+        // Le descendant 2 n'a qu'un seul marqueur de résistance
+        createGenotype(child2, mkR123);
+
+        log.info("{} relations de génotype créées.", genotypeRepository.count());
+
+        log.info("############ INITIALISATION PHYTO-MARKER TERMINÉE ###########");
+        log.info("############################################################");
+    }
+
+    /**
+     * Méthode utilitaire pour créer et sauvegarder une relation Genotype.
+     */
+    private void createGenotype(Plant plant, Marker marker) {
+        Genotype genotype = new Genotype();
+        genotype.setPlant(plant);
+        genotype.setMarker(marker);
+        genotypeRepository.save(genotype);
+    }
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\model\Genotype.java ---
+package fr.cda.phytomarker_db.model;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "genotypes")
+public class Genotype {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "plant_id", nullable = false)
+    private Plant plant;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "marker_id", nullable = false)
+    private Marker marker;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Plant getPlant() {
+        return plant;
+    }
+
+    public void setPlant(Plant plant) {
+        this.plant = plant;
+    }
+
+    public Marker getMarker() {
+        return marker;
+    }
+
+    public void setMarker(Marker marker) {
+        this.marker = marker;
+    }
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\model\Marker.java ---
+package fr.cda.phytomarker_db.model;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "markers")
+public class Marker {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(unique = true, nullable = false)
+    private String name; // ex: "Mk-R-123"
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\model\PhenotypeObservation.java ---
+package fr.cda.phytomarker_db.model;
+
+import jakarta.persistence.*;
+import java.time.LocalDate;
+
+@Entity
+@Table(name = "phenotype_observations")
+public class PhenotypeObservation {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private LocalDate observationDate;
+    private String trait; // ex: "Résistance Mildiou", "Hauteur"
+    private String value; // ex: "4.5", "110cm"
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "plant_id", nullable = false)
+    private Plant plant;
+
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public LocalDate getObservationDate() {
+        return observationDate;
+    }
+
+    public void setObservationDate(LocalDate observationDate) {
+        this.observationDate = observationDate;
+    }
+
+    public String getTrait() {
+        return trait;
+    }
+
+    public void setTrait(String trait) {
+        this.trait = trait;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+
+    public Plant getPlant() {
+        return plant;
+    }
+
+    public void setPlant(Plant plant) {
+        this.plant = plant;
+    }
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\model\Plant.java ---
+package fr.cda.phytomarker_db.model;
+
+import jakarta.persistence.*;
+
+import java.util.HashSet;
+import java.util.Set;
+
+@Entity
+@Table(name = "plants")
+public class Plant {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(nullable = false)
+    private String name;
+
+    @Column(nullable = false)
+    private String variety; // ex: "Blé dur"
+
+    private Double mildewResistanceScore; // ex: 4.5
+
+    private Long parent1Id;
+    private Long parent2Id;
+
+    @OneToMany(mappedBy = "plant", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Genotype> genotypes = new HashSet<>();
+
+    @OneToMany(mappedBy = "plant", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<PhenotypeObservation> phenotypeObservations = new HashSet<>();
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getVariety() {
+        return variety;
+    }
+
+    public void setVariety(String variety) {
+        this.variety = variety;
+    }
+
+    public Double getMildewResistanceScore() {
+        return mildewResistanceScore;
+    }
+
+    public void setMildewResistanceScore(Double mildewResistanceScore) {
+        this.mildewResistanceScore = mildewResistanceScore;
+    }
+
+    public Long getParent1Id() {
+        return parent1Id;
+    }
+
+    public void setParent1Id(Long parent1Id) {
+        this.parent1Id = parent1Id;
+    }
+
+    public Long getParent2Id() {
+        return parent2Id;
+    }
+
+    public void setParent2Id(Long parent2Id) {
+        this.parent2Id = parent2Id;
+    }
+
+    public Set<Genotype> getGenotypes() {
+        return genotypes;
+    }
+
+    public void setGenotypes(Set<Genotype> genotypes) {
+        this.genotypes = genotypes;
+    }
+
+    public Set<PhenotypeObservation> getPhenotypeObservations() {
+        return phenotypeObservations;
+    }
+
+    public void setPhenotypeObservations(Set<PhenotypeObservation> phenotypeObservations) {
+        this.phenotypeObservations = phenotypeObservations;
+    }
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\repository\GenotypeRepository.java ---
+package fr.cda.phytomarker_db.repository;
+
+import fr.cda.phytomarker_db.model.Genotype;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface GenotypeRepository extends JpaRepository<Genotype, Long> {}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\repository\MarkerRepository.java ---
+package fr.cda.phytomarker_db.repository;
+
+import fr.cda.phytomarker_db.model.Marker;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface MarkerRepository extends JpaRepository<Marker, Long> {}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\repository\PlantRepository.java ---
+package fr.cda.phytomarker_db.repository;
+
+import fr.cda.phytomarker_db.model.Plant;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import org.springframework.data.jpa.repository.Query;
+
+import java.util.List;
+
+public interface PlantRepository extends JpaRepository<Plant, Long>, JpaSpecificationExecutor<Plant> {
+
+    @Query("SELECT DISTINCT p.variety FROM Plant p ORDER BY p.variety ASC")
+    List<String> findDistinctVarieties();
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\service\PlantService.java ---
+package fr.cda.phytomarker_db.service;
+
+import fr.cda.phytomarker_db.dto.*;
+import fr.cda.phytomarker_db.exception.ResourceNotFoundException;
+import fr.cda.phytomarker_db.model.Plant;
+import fr.cda.phytomarker_db.repository.PlantRepository;
+import org.springframework.data.jpa.domain.Specification;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+@Service
+public class PlantService {
+    private final PlantRepository plantRepository;
+
+    public PlantService(PlantRepository plantRepository) {
+        this.plantRepository = plantRepository;
+    }
+
+    public List<String> getDistinctVarieties() {
+        return plantRepository.findDistinctVarieties();
+    }
+
+    public List<PlantDto> searchPlants(PlantSearchCriteriaDto criteria) {
+        // CORRECTION : Remplacement de la méthode dépréciée
+        // On commence avec une spécification qui ne filtre rien.
+        Specification<Plant> spec = Specification.not(null);
+
+        if (criteria.variety() != null && !criteria.variety().isBlank()) {
+            spec = spec.and(PlantSpecification.hasVariety(criteria.variety()));
+        }
+
+        if (criteria.minMildewScore() != null) {
+            spec = spec.and(PlantSpecification.hasMinMildewScore(criteria.minMildewScore()));
+        }
+
+        if (criteria.markerNames() != null && !criteria.markerNames().isEmpty()) {
+            spec = spec.and(PlantSpecification.hasMarkers(criteria.markerNames()));
+        }
+
+        return plantRepository.findAll(spec).stream()
+                .map(this::convertToDto)
+                .collect(Collectors.toList());
+    }
+
+    @Transactional(readOnly = true)
+    public PlantDetailDto getPlantById(Long id) {
+        Plant plant = plantRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Plant not found with id: " + id));
+        return convertToDetailDto(plant);
+    }
+
+    @Transactional
+    public Plant createPlant(Plant newPlant) {
+        return plantRepository.save(newPlant);
+    }
+
+    public String exportToCsv(PlantSearchCriteriaDto criteria) {
+        List<PlantDto> plants = searchPlants(criteria);
+        StringBuilder csvBuilder = new StringBuilder();
+        // En-tête du CSV
+        csvBuilder.append("ID,Nom,Variete,Score Mildiou,Marqueurs\n");
+        // Lignes de données
+        for (PlantDto plant : plants) {
+            String markers = plant.genotypes().stream()
+                    .map(g -> g.marker().name())
+                    .collect(Collectors.joining("|"));
+            csvBuilder.append(String.format("%d,%s,%s,%.2f,\"%s\"\n",
+                    plant.id(), plant.name(), plant.variety(), plant.mildewResistanceScore(), markers));
+        }
+        return csvBuilder.toString();
+    }
+
+    private PlantDto convertToDto(Plant plant) {
+        Set<GenotypeDto> genotypeDtos = plant.getGenotypes() != null ?
+                plant.getGenotypes().stream()
+                        .map(genotype -> new GenotypeDto(new MarkerDto(genotype.getMarker().getName())))
+                        .collect(Collectors.toSet())
+                : Set.of();
+
+        return new PlantDto(
+                plant.getId(),
+                plant.getName(),
+                plant.getVariety(),
+                plant.getMildewResistanceScore(),
+                genotypeDtos
+        );
+    }
+
+    private PlantDetailDto convertToDetailDto(Plant plant) {
+        Set<GenotypeDto> genotypeDtos = plant.getGenotypes() != null ?
+                plant.getGenotypes().stream()
+                        .map(genotype -> new GenotypeDto(new MarkerDto(genotype.getMarker().getName())))
+                        .collect(Collectors.toSet())
+                : Set.of();
+
+        List<PhenotypeObservationDto> observationDtos = plant.getPhenotypeObservations() != null ?
+                plant.getPhenotypeObservations().stream()
+                        .map(obs -> new PhenotypeObservationDto(obs.getObservationDate(), obs.getTrait(), obs.getValue()))
+                        .collect(Collectors.toList())
+                : List.of();
+
+        return new PlantDetailDto(
+                plant.getId(),
+                plant.getName(),
+                plant.getVariety(),
+                plant.getParent1Id(),
+                plant.getParent2Id(),
+                genotypeDtos,
+                observationDtos
+        );
+    }
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\service\PlantSpecification.java ---
+package fr.cda.phytomarker_db.service;
+
+import fr.cda.phytomarker_db.model.Genotype;
+import fr.cda.phytomarker_db.model.Marker;
+import fr.cda.phytomarker_db.model.Plant;
+import jakarta.persistence.criteria.Join;
+import org.springframework.data.jpa.domain.Specification;
+import org.springframework.util.StringUtils;
+
+import java.util.List;
+
+public class PlantSpecification {
+    public static Specification<Plant> hasVariety(String variety) {
+        return (root, query, builder) ->
+                StringUtils.hasText(variety) ? builder.equal(root.get("variety"), variety) : builder.conjunction();
+    }
+
+    public static Specification<Plant> hasMinMildewScore(Double minScore) {
+        return (root, query, builder) ->
+                minScore != null ? builder.greaterThanOrEqualTo(root.get("mildewResistanceScore"), minScore) : builder.conjunction();
+    }
+
+    public static Specification<Plant> hasMarkers(List<String> markerNames) {
+        return (root, query, builder) -> {
+            if (markerNames == null || markerNames.isEmpty()) {
+                return builder.conjunction();
+            }
+            // Jointure complexe pour trouver les plantes possédant un marqueur donné
+            Join<Plant, Genotype> genotypeJoin = root.join("genotypes");
+            Join<Genotype, Marker> markerJoin = genotypeJoin.join("marker");
+            return markerJoin.get("name").in(markerNames);
+        };
+    }
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\java\fr\cda\phytomarker_db\PhytomarkerDbApplication.java ---
+package fr.cda.phytomarker_db;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PhytomarkerDbApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PhytomarkerDbApplication.class, args);
+	}
+
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\main\resources\application.yml ---
+spring:
+  application:
+    name: Phytomarker-DB
+
+  profiles:
+    active: dev
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/phytomarkerdb
+    username: postgres
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: aVeryLongAndSecureSecretKeyThatShouldBeStoredSafely
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\src\test\java\fr\cda\phytomarker_db\PhytomarkerDbApplicationTests.java ---
+package fr.cda.phytomarker_db;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class PhytomarkerDbApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\target\classes\application.yml ---
+spring:
+  application:
+    name: Phytomarker-DB
+
+  profiles:
+    active: dev
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/phytomarkerdb
+    username: postgres
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: aVeryLongAndSecureSecretKeyThatShouldBeStoredSafely
+
+--- FILE: C:\Users\romeo\Documents\Projets\PhytoMarker-DB\phytomarker-db-back\pom.xml ---
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.5.4</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>fr.cda.phytomarker</groupId>
+	<artifactId>phytomarker-db</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>phytomarker-DB</name>
+	<description>Application web pour l&apos;analyse d&apos;association génotype-phénotype en génétique végétale.</description>
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+	<properties>
+		<java.version>21</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-impl -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.12.6</version>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-api</artifactId>
+			<version>0.12.6</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-jackson -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId>
+			<version>0.12.6</version>
+			<scope>runtime</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
+
