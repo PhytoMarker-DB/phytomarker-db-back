@@ -1,110 +1,117 @@
-# PhytoMarker-DB : Base de Données pour l'Association Génotype-Phénotype
+# PhytoMarker-DB Backend 🌿
 
-PhytoMarker-DB est une application web full-stack conçue pour les généticiens, les chercheurs et les techniciens en amélioration des plantes. Elle offre une plateforme centralisée et sécurisée pour stocker, gérer et analyser des données de phénotypage et de génotypage, dans le but de découvrir des corrélations et d'accélérer les programmes de sélection variétale.
+Bienvenue sur le dépôt du back-end de **PhytoMarker-DB**. Cette application, développée avec **Spring Boot**, sert d'API RESTful pour le projet. Elle est responsable de la persistance des données, de la logique métier et de l'exposition sécurisée des informations à l'application cliente.
 
-L'application met l'accent sur un moteur de recherche puissant, des outils de visualisation de données (tels que les arbres généalogiques) et un système d'accès sécurisé basé sur les rôles.
+Ce dépôt contient uniquement le code de l'API serveur. Le code du front-end (Angular) se trouve dans le dépôt [phytomarker-db-front](https://github.com/PhytoMarker-DB/phytomarker-db-front).
 
+## ✨ Fonctionnalités Principales
 
-*(Remplacez ce lien par une capture d'écran de votre application, par exemple la page de recherche ou de résultats)*
+*   **API RESTful Complète :** Exposition de endpoints clairs et structurés pour toutes les opérations CRUD (Create, Read, Update, Delete) sur les entités de l'application.
+*   **Recherche Multi-Critères :** Un endpoint de recherche puissant (`/api/plants/search`) utilisant JPA Specifications pour permettre des requêtes complexes et performantes.
+*   **Logique de Pedigree Côté Serveur :** Un endpoint dédié (`/api/plants/{id}/pedigree`) qui reconstruit l'ascendance complète d'une plante de manière récursive et optimisée.
+*   **Gestion des Données :** Persistance des plantes, marqueurs génétiques, génotypes et observations phénotypiques dans une base de données relationnelle.
+*   **Export de Données :** Un endpoint pour générer et exporter les résultats de recherche au format CSV.
+*   **Sécurité :** Une couche de sécurité de base gérée par Spring Security, avec une configuration CORS pour autoriser les requêtes depuis le front-end.
+*   **Initialisation des Données :** Un script d'initialisation (`DataInitializer`) pour peupler la base de données avec un jeu de données de test cohérent au premier lancement en mode développement.
 
----
+## 🛠️ Stack Technique
 
-## 🚀 Fonctionnalités Principales
+*   **Framework :** [Spring Boot](https://spring.io/projects/spring-boot) v3.x
+*   **Langage :** [Java](https://www.java.com/) 21
+*   **Accès aux Données :** Spring Data JPA / [Hibernate](https://hibernate.org/)
+*   **Base de Données :** [PostgreSQL](https://www.postgresql.org/)
+*   **Sécurité :** [Spring Security](https://spring.io/projects/spring-security)
+*   **Gestion des Dépendances :** [Maven](https://maven.apache.org/)
 
-*   **Moteur de Recherche Avancée** : Permet de construire des requêtes complexes en combinant de multiples critères (variété de plante, score d'un trait, présence/absence de marqueurs génétiques) pour filtrer les données avec une grande précision.
-*   **Visualisation de Données Génétiques** : Génération de diagrammes de pedigree interactifs pour visualiser et comprendre la lignée génétique d'une plante.
-*   **Centralisation des Données** : Stockage de toutes les informations relatives aux plantes, aux observations phénotypiques et aux résultats de génotypage dans une base de données relationnelle unique et structurée, garantissant la cohérence et l'intégrité des données.
-*   **Sécurité et Gestion des Droits (RBAC)** : Un système d'accès basé sur les rôles (Administrateur, Chercheur, Technicien) assure que les utilisateurs ne peuvent accéder et modifier que les données autorisées par leurs permissions.
-*   **Export des Données** : Possibilité d'exporter les résultats de recherche au format CSV pour des analyses plus poussées dans des logiciels tiers (R, Excel, etc.).
+## 🚀 Démarrage Rapide
 
----
+Pour lancer l'application en local, suivez ces étapes.
 
-## 🏛️ Architecture et Stack Technique
+### Prérequis
 
-Le projet est construit sur une **architecture N-Tiers** moderne, garantissant une séparation claire des responsabilités entre le client, le serveur et la base de données, ce qui favorise la maintenabilité, la sécurité et l'évolutivité.
-
-### **Backend (API)**
-
-L'API RESTful est le cœur logique de l'application, développé en suivant le patron de conception **Controller-Service-Repository**.
-
-*   **Langage** : [Java 17](https://www.oracle.com/java/technologies/javase/17-relnote-license-faq.html)
-*   **Framework** : [Spring Boot 3](https://spring.io/projects/spring-boot)
-*   **Persistance des Données** : [Spring Data JPA](https://spring.io/projects/spring-data-jpa) pour l'accès aux données, avec l'utilisation de l'API **`Specification`** pour la construction de requêtes dynamiques et sécurisées.
-*   **Base de Données** : [PostgreSQL](https://www.postgresql.org/)
-*   **Sécurité** : [Spring Security](https://spring.io/projects/spring-security) pour la gestion de l'authentification (via **JSON Web Tokens - JWT**) et des autorisations au niveau des endpoints et des méthodes de service (`@PreAuthorize`).
-*   **Gestion de Projet** : [Maven](https://maven.apache.org/)
-
-### **Frontend (Client)**
-
-L'interface utilisateur est développée en tant que **Single Page Application (SPA)** pour une expérience utilisateur fluide et réactive.
-
-*   **Framework** : [Angular 16+](https://angular.io/)
-*   **Langage** : [TypeScript](https://www.typescriptlang.org/)
-*   **Mise en Page et Style** : [Tailwind CSS](https://tailwindcss.com/) pour une approche "utility-first" et un design entièrement responsive.
-*   **Visualisation de Données** : [D3.js](https://d3js.org/) pour la génération des diagrammes de pedigree SVG.
-
----
-
-## ⚙️ Installation et Démarrage
-
-### **Prérequis**
-
-*   Java JDK 17+
+Assurez-vous d'avoir les outils suivants installés sur votre machine :
+*   JDK 21 (ou supérieur)
 *   Maven 3.8+
-*   Node.js 18+ et npm
-*   Une instance de PostgreSQL en cours d'exécution
-*   Angular CLI (`npm install -g @angular/cli`)
+*   PostgreSQL (version 12 ou supérieure recommandée)
+*   Un IDE comme IntelliJ IDEA ou VS Code avec les extensions Java/Spring.
 
-### **1. Configuration du Backend**
+### Installation et Configuration
 
-1.  **Cloner le dépôt :**
+1.  **Clonez le dépôt :**
     ```bash
-    git clone https://github.com/votre-pseudo/phytomarker-db-backend.git
-    cd phytomarker-db-backend
+    git clone https://github.com/PhytoMarker-DB/phytomarker-db-back.git
+    cd phytomarker-db-back
     ```
-2.  **Configurer la base de données :**
-    Ouvrez le fichier `src/main/resources/application.properties` et mettez à jour les propriétés `spring.datasource` avec vos informations de connexion à PostgreSQL.
-    ```properties
-    spring.datasource.url=jdbc:postgresql://localhost:5432/phytomarkerdb
-    spring.datasource.username=votre_utilisateur_db
-    spring.datasource.password=votre_mot_de_passe_db
-    ```
-3.  **Lancer l'application :**
+
+2.  **Configuration de la Base de Données :**
+    *   Lancez votre service PostgreSQL.
+    *   Créez une nouvelle base de données. Le nom par défaut attendu est `phytomarkerdb`.
+        ```sql
+        CREATE DATABASE phytomarkerdb;
+        ```    *   Ouvrez le fichier de configuration de l'application : `src/main/resources/application.yml`.
+    *   Modifiez les informations de connexion si nécessaire pour correspondre à votre configuration locale :
+        ```yaml
+        spring:
+          datasource:
+            url: jdbc:postgresql://localhost:5432/phytomarkerdb
+            username: postgres # Votre nom d'utilisateur PostgreSQL
+            password: root     # Votre mot de passe
+        ```
+
+3.  **Configuration de la Génération du Schéma :**
+    Dans `application.yml`, la propriété `spring.jpa.hibernate.ddl-auto` est configurée sur `create`.
+    > **⚠️ Attention :** Ce mode **détruit et recrée** toutes les tables à chaque redémarrage de l'application. C'est idéal pour le développement mais **ne doit jamais être utilisé en production**.
+
+### Lancement
+
+Vous pouvez lancer l'application de plusieurs manières :
+
+*   **Via Maven (recommandé) :**
     ```bash
     mvn spring-boot:run
     ```
-    L'API backend sera accessible à l'adresse `http://localhost:8080`.
 
-### **2. Configuration du Frontend**
+*   **Via votre IDE :**
+    Ouvrez le projet en tant que projet Maven, puis exécutez la méthode `main` de la classe `PhytomarkerDbApplication.java`.
 
-1.  **Cloner le dépôt :**
-    ```bash
-    git clone https://github.com/votre-pseudo/phytomarker-db-frontend.git
-    cd phytomarker-db-frontend
-    ```
-2.  **Installer les dépendances :**
-    ```bash
-    npm install
-    ```
-3.  **Lancer l'application :**
-    ```bash
-    ng serve
-    ```
-    L'interface utilisateur sera disponible à l'adresse `http://localhost:4200`.
+Une fois lancée, l'application sera accessible sur `http://localhost:8080`.
+
+## 📖 Endpoints de l'API
+
+Voici une liste des principaux endpoints publics disponibles :
+
+| Méthode HTTP | Endpoint                            | Description                                                                                             |
+|--------------|-------------------------------------|---------------------------------------------------------------------------------------------------------|
+| `GET`        | `/api/plants/search`                | Recherche des plantes avec des filtres ( `variety`, `minMildewScore`, `markerNames` en query params). |
+| `GET`        | `/api/plants/{id}`                  | Récupère les détails complets d'une seule plante par son ID.                                            |
+| `GET`        | `/api/plants/{id}/pedigree`         | Récupère l'ascendance complète d'une plante pour la visualisation du pedigree.                          |
+| `GET`        | `/api/plants/varieties`             | Retourne une liste unique et triée de toutes les variétés de plantes disponibles.                       |
+| `GET`        | `/api/markers`                      | Retourne une liste unique et triée de tous les noms de marqueurs disponibles.                           |
+| `POST`       | `/api/plants`                       | Crée une nouvelle plante. Le corps de la requête doit contenir un JSON représentant la plante.         |
+
+## 📁 Structure du Projet
+
+Le projet suit une architecture en couches classique pour une application Spring Boot.
+
+```
+src/main/java/fr/cda/phytomarker_db/
+├── config/                   # Configuration de l'application (Sécurité, etc.)
+├── controller/               # Contrôleurs REST qui exposent les endpoints de l'API
+├── dto/                      # Data Transfer Objects pour formater les données de l'API
+├── exception/                # Gestion des exceptions personnalisées
+├── init/                     # Scripts d'initialisation des données pour le développement
+├── model/                    # Entités JPA qui représentent le schéma de la base de données
+├── repository/               # Interfaces Spring Data JPA pour l'accès aux données
+└── service/                  # Couche de service contenant la logique métier
+```
+
+## 🔒 Sécurité
+
+La sécurité est gérée par **Spring Security**. La configuration actuelle (`SecurityConfig.java`) est simple :
+*   **CORS** est configuré pour accepter les requêtes provenant de `http://localhost:4200` (l'application Angular).
+*   **Permissions :**
+    *   Toutes les requêtes `GET` sont publiques et ne nécessitent pas d'authentification.
+    *   Toutes les requêtes `POST` sur `/api/plants` sont publiques pour permettre la saisie de données.
+    *   Toutes les autres requêtes (`PUT`, `DELETE`, etc.) sont protégées et nécessitent une authentification (actuellement configurée en HTTP Basic avec un utilisateur en mémoire).
 
 ---
-
-## 📜 Endpoints API (Principaux)
-
-*   `POST /api/auth/login`: Authentifier un utilisateur et obtenir un token JWT.
-*   `GET /api/plants/search`: Effectuer une recherche avancée de plantes (accepte plusieurs paramètres de requête).
-*   `GET /api/plants/{id}`: Obtenir les informations détaillées d'une plante spécifique.
-*   `POST /api/observations`: Ajouter une nouvelle observation phénotypique.
-
----
-
-## ✍️ Auteur
-
-*   **[Votre Nom]** - [Lien vers votre profil GitHub ou portfolio]
-
-Ce projet a été développé dans le cadre de ma certification pour le titre professionnel **Concepteur Développeur d'Applications**.
