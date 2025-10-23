@@ -4,6 +4,9 @@ Bienvenue sur le dépôt du back-end de **PhytoMarker-DB**. Cette application, d
 
 Ce dépôt contient uniquement le code de l'API serveur. Le code du front-end (Angular) se trouve dans le dépôt [phytomarker-db-front](https://github.com/PhytoMarker-DB/phytomarker-db-front).
 
+<img width="1900" height="941" alt="screely-1761208226855" src="https://github.com/user-attachments/assets/f69860b7-1f95-4ca1-8f4a-870eac9d85bf" />
+
+
 ## ✨ Fonctionnalités Principales
 
 *   **API RESTful Complète :** Exposition de endpoints clairs et structurés pour toutes les opérations CRUD (Create, Read, Update, Delete) sur les entités de l'application.
@@ -115,3 +118,12 @@ La sécurité est gérée par **Spring Security**. La configuration actuelle (`S
     *   Toutes les autres requêtes (`PUT`, `DELETE`, etc.) sont protégées et nécessitent une authentification (actuellement configurée en HTTP Basic avec un utilisateur en mémoire).
 
 ---
+
+### Pedigree et Détail Descendants 
+<img width="1917" height="939" alt="screely-1761211437329" src="https://github.com/user-attachments/assets/7fcc2fe6-6e42-402b-8170-a8a1720b5e08" />
+
+### Formulaire de saisie
+<img width="1917" height="942" alt="screely-1761211552445" src="https://github.com/user-attachments/assets/b179194d-7faa-4548-95ec-54e300218468" />
+
+
+
